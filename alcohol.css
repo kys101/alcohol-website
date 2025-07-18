@@ -1,5 +1,6 @@
 body{
-    background-color: grey;
+    background-color: rgb(179, 179, 179);
+    margin: 5%;
 }
 .container {
     display: grid;
@@ -60,6 +61,8 @@ body{
 .image2{
 
     grid-area: image2;
+    width:1%;
+    height: auto;
 }
 
 .text2{
@@ -70,6 +73,8 @@ body{
 .image3{
 
     grid-area: image3;
+    width:1%;
+    height: auto;
 }
 
 
@@ -91,5 +96,6 @@ body{
 .footer{
 
     grid-area: footer;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
 }
